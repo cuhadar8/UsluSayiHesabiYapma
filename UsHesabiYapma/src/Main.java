@@ -4,8 +4,8 @@ public class Main {
 	
 	public static int result = 1;
 	public static int power(int base, int exponent) {
-		if(exponent == 0 || base == 0) {                //Recursive metodun bitmesi için koşulu ve üs veya tabanın 0 girilmesi
-			return 1;									//durumunu aynı anda çözmüş olduk
+		if(exponent == 0 ) {                //Recursive metodun bitmesi için koşulu ve üssün 0 girilmesi durumdaki sonucu sağladık
+			return 1;									
 		}
 		result *= base;
 		power(base,exponent-1);
